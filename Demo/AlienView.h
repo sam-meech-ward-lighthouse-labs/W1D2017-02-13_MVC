@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AlienView.h
 //  Demo
 //
 //  Created by Sam Meech-Ward on 2017-02-13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AlienView : UIView
 
 @end
-

@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		222DC0281E521F4200C080A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 222DC0271E521F4200C080A7 /* main.m */; };
 		222DC02B1E521F4200C080A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 222DC02A1E521F4200C080A7 /* AppDelegate.m */; };
-		222DC02E1E521F4200C080A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222DC02D1E521F4200C080A7 /* ViewController.m */; };
+		222DC02E1E521F4200C080A7 /* AlienViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222DC02D1E521F4200C080A7 /* AlienViewController.m */; };
 		222DC0311E521F4200C080A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222DC02F1E521F4200C080A7 /* Main.storyboard */; };
 		222DC0331E521F4200C080A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222DC0321E521F4200C080A7 /* Assets.xcassets */; };
 		222DC0361E521F4200C080A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222DC0341E521F4200C080A7 /* LaunchScreen.storyboard */; };
 		222DC0411E521F4200C080A7 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 222DC0401E521F4200C080A7 /* DemoTests.m */; };
+		222DC0501E5222A000C080A7 /* Aliens.m in Sources */ = {isa = PBXBuildFile; fileRef = 222DC04F1E5222A000C080A7 /* Aliens.m */; };
+		222DC0531E522AB100C080A7 /* AlienView.m in Sources */ = {isa = PBXBuildFile; fileRef = 222DC0521E522AB100C080A7 /* AlienView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +33,8 @@
 		222DC0271E521F4200C080A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		222DC0291E521F4200C080A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		222DC02A1E521F4200C080A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		222DC02C1E521F4200C080A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		222DC02D1E521F4200C080A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		222DC02C1E521F4200C080A7 /* AlienViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlienViewController.h; sourceTree = "<group>"; };
+		222DC02D1E521F4200C080A7 /* AlienViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlienViewController.m; sourceTree = "<group>"; };
 		222DC0301E521F4200C080A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		222DC0321E521F4200C080A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		222DC0351E521F4200C080A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,10 @@
 		222DC03C1E521F4200C080A7 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		222DC0401E521F4200C080A7 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
 		222DC0421E521F4200C080A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222DC04E1E5222A000C080A7 /* Aliens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aliens.h; sourceTree = "<group>"; };
+		222DC04F1E5222A000C080A7 /* Aliens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aliens.m; sourceTree = "<group>"; };
+		222DC0511E522AB100C080A7 /* AlienView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlienView.h; sourceTree = "<group>"; };
+		222DC0521E522AB100C080A7 /* AlienView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlienView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,9 @@
 			children = (
 				222DC0291E521F4200C080A7 /* AppDelegate.h */,
 				222DC02A1E521F4200C080A7 /* AppDelegate.m */,
-				222DC02C1E521F4200C080A7 /* ViewController.h */,
-				222DC02D1E521F4200C080A7 /* ViewController.m */,
+				222DC04D1E52226200C080A7 /* Controllers */,
+				222DC04C1E52225900C080A7 /* Views */,
+				222DC04B1E52224B00C080A7 /* Models */,
 				222DC02F1E521F4200C080A7 /* Main.storyboard */,
 				222DC0321E521F4200C080A7 /* Assets.xcassets */,
 				222DC0341E521F4200C080A7 /* LaunchScreen.storyboard */,
@@ -109,6 +116,33 @@
 				222DC0421E521F4200C080A7 /* Info.plist */,
 			);
 			path = DemoTests;
+			sourceTree = "<group>";
+		};
+		222DC04B1E52224B00C080A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				222DC04E1E5222A000C080A7 /* Aliens.h */,
+				222DC04F1E5222A000C080A7 /* Aliens.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		222DC04C1E52225900C080A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				222DC0511E522AB100C080A7 /* AlienView.h */,
+				222DC0521E522AB100C080A7 /* AlienView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		222DC04D1E52226200C080A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				222DC02C1E521F4200C080A7 /* AlienViewController.h */,
+				222DC02D1E521F4200C080A7 /* AlienViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +249,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222DC02E1E521F4200C080A7 /* ViewController.m in Sources */,
+				222DC0531E522AB100C080A7 /* AlienView.m in Sources */,
+				222DC02E1E521F4200C080A7 /* AlienViewController.m in Sources */,
 				222DC02B1E521F4200C080A7 /* AppDelegate.m in Sources */,
 				222DC0281E521F4200C080A7 /* main.m in Sources */,
+				222DC0501E5222A000C080A7 /* Aliens.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
